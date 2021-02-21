@@ -1,13 +1,17 @@
 <template>
   <div id="app">
+     
     <b-navbar
       toggleable="lg"
       type="dark"
-      variant="info"
+      variant="warning"
       class="navbar-horizontal"
     >
+    <h1>Cassshop</h1>
     </b-navbar>
+    
     <router-view />
+    
   </div>
 </template>
 
