@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "title": "เคสคอม ANTEC CASE DP301M BLACK [RGB]",
+      "price": 1590,
+      "imgUrl": "https://jlgaminggear.com/wp-content/uploads/2020/02/ANTEC-DP301M-1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "CORSAIR CASE ICUE 220T RGB [WHITE]",
+      "price": 3690,
+      "imgUrl": "https://jlgaminggear.com/wp-content/uploads/2020/06/CORSAIR-220T-RGB-WHITE-1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "AERCOOL CASE GLIDER [RGB]",
+      "price": 990,
+      "imgUrl": "https://jlgaminggear.com/wp-content/uploads/2020/06/Aercool-Glider-1.jpg"
+      
+    },
+    {
+      "id": 4,
+      "title": "GREATWALL T1 ZERO",
+      "price": 3590,
+      "imgUrl": "https://jlgaminggear.com/wp-content/uploads/2020/08/2279.jpg"
+    },
+    {
+      "id": 5,
+      "title": "NUBWO CASE NPC-320 HORIZON (BLACK)",
+      "price": 890,
+      "imgUrl": "https://jlgaminggear.com/wp-content/uploads/2019/09/1-75.jpg"
+    },
+    {
+        "id": 6,
+        "title": "NZXT CASE H210 [WHITE]",
+        "price": 3090,
+        "imgUrl": "https://jlgaminggear.com/wp-content/uploads/2020/02/NZXT-CASE-H210-WHITE-1.jpg"
+      }
+    
+  ]
+  
+  

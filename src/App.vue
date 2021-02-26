@@ -1,19 +1,38 @@
 <template>
   <div id="app">
-     
-    <b-navbar
-      toggleable="lg"
-      type="dark"
-      variant="warning"
-      class="navbar-horizontal"
-    >
-    <h1>Cassshop</h1>
-    </b-navbar>
-    
-    <router-view />
-    
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <Header />
+          </div>
+          <div class="col-8">
+            <h1>รายการสินค้า</h1>
+            <Casshop />
+          </div>
+          <div class="col-4"><Cart /></div>
+        </div>
+      </div>
+      <Footer />
+    </div>
   </div>
 </template>
+
+<script>
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Casshop from "./components/Casshop";
+import Cart from "./components/Cart";
+export default {
+  name: "App",
+  components: {
+    Casshop,
+    Footer,
+    Header,
+    Cart,
+  },
+};
+</script>
 
 <style>
 #app {
@@ -22,15 +41,5 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-}
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>
